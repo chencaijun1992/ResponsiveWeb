@@ -340,7 +340,8 @@ browser-sync start --server --files "css/*.css
 * **[gulp-rev-replace](https://github.com/jamesknelson/gulp-rev-replace)**：文件名改变了，对应的引用也要发生变化
 * **[gulp-useref]()**：在我们的html中可以通过注释的方法写一些设置，比如根据这样的注释
 
-```   <!-- build:css css/combined.css -->
+``` 
+    <!-- build:css css/combined.css -->
     <link href="css/one.css" rel="stylesheet">
     <link href="css/two.css" rel="stylesheet">
     <!-- endbuild -->
